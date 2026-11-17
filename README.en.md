@@ -27,7 +27,7 @@ The design principle is not "let the model chat", but **put LLM uncertainty insi
 </tr>
 <tr>
 <td width="50%"><a href="docs/screenshots/offers-map-schedule.png"><img src="docs/screenshots/offers-map-schedule.png" width="100%" alt="ToDo map and schedule"></a></td>
-<td width="50%"><a href="docs/screenshots/settings.png"><img src="docs/screenshots/settings.png" width="200" alt="Settings"></a></td>
+<td width="50%" align="center"><a href="docs/screenshots/settings.png"><img src="docs/screenshots/settings.png" width="200" alt="Settings"></a></td>
 </tr>
 </table>
 

@@ -14,8 +14,16 @@ YourSpecialJob 面向在微信群里找兼职的学生：自动读取群消息�
 
 <table>
 <tr>
+<th width="50%">OfferPanel：推荐后三步收藏</th>
+<th width="50%">心动的offer 工作台</th>
+</tr>
+<tr>
 <td width="50%"><a href="docs/screenshots/offer-panel.png"><img src="docs/screenshots/offer-panel.png" width="100%" alt="OfferPanel：推荐后三步收藏"></a></td>
 <td width="50%"><a href="docs/screenshots/offers-workbench.png"><img src="docs/screenshots/offers-workbench.png" width="100%" alt="心动的offer 工作台"></a></td>
+</tr>
+<tr>
+<th width="50%">ToDo地图与日程表</th>
+<th width="50%">设置页</th>
 </tr>
 <tr>
 <td width="50%"><a href="docs/screenshots/offers-map-schedule.png"><img src="docs/screenshots/offers-map-schedule.png" width="100%" alt="ToDo地图与日程表"></a></td>

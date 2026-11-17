@@ -14,8 +14,16 @@ The design principle is not "let the model chat", but **put LLM uncertainty insi
 
 <table>
 <tr>
+<th width="50%">OfferPanel after recommendations</th>
+<th width="50%">Favorites / ToDo workbench</th>
+</tr>
+<tr>
 <td width="50%"><a href="docs/screenshots/offer-panel.png"><img src="docs/screenshots/offer-panel.png" width="100%" alt="OfferPanel after recommendations"></a></td>
 <td width="50%"><a href="docs/screenshots/offers-workbench.png"><img src="docs/screenshots/offers-workbench.png" width="100%" alt="Favorites / ToDo workbench"></a></td>
+</tr>
+<tr>
+<th width="50%">ToDo map and schedule</th>
+<th width="50%">Settings</th>
 </tr>
 <tr>
 <td width="50%"><a href="docs/screenshots/offers-map-schedule.png"><img src="docs/screenshots/offers-map-schedule.png" width="100%" alt="ToDo map and schedule"></a></td>

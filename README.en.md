@@ -18,7 +18,7 @@ The design principle is not "let the model chat", but **put LLM uncertainty insi
 
 | ToDo map and schedule | Settings |
 |---|---|
-| ![ToDo map and schedule](docs/screenshots/offers-map-schedule.png) | ![Settings](docs/screenshots/settings.png) |
+| <a href="docs/screenshots/offers-map-schedule.png"><img src="docs/screenshots/offers-map-schedule.png" width="340" alt="ToDo map and schedule"></a> | <a href="docs/screenshots/settings.png"><img src="docs/screenshots/settings.png" width="200" alt="Settings"></a> |
 
 > Screenshots come from a real local run and are for UI demonstration only.
 

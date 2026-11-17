@@ -18,7 +18,7 @@ YourSpecialJob 面向在微信群里找兼职的学生：自动读取群消息�
 
 | ToDo地图与日程表 | 设置页 |
 |---|---|
-| ![ToDo地图与日程表](docs/screenshots/offers-map-schedule.png) | ![设置页](docs/screenshots/settings.png) |
+| <a href="docs/screenshots/offers-map-schedule.png"><img src="docs/screenshots/offers-map-schedule.png" width="340" alt="ToDo地图与日程表"></a> | <a href="docs/screenshots/settings.png"><img src="docs/screenshots/settings.png" width="200" alt="设置页"></a> |
 
 > 截图来自本地真实运行环境，仅用于展示界面。
 

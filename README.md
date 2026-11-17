@@ -29,6 +29,12 @@ YourSpecialJob 面向在微信群里找兼职的学生：自动读取群消息�
 <td width="50%"><a href="docs/screenshots/offers-map-schedule.png"><img src="docs/screenshots/offers-map-schedule.png" width="100%" alt="ToDo地图与日程表"></a></td>
 <td width="50%" align="center"><a href="docs/screenshots/settings.png"><img src="docs/screenshots/settings.png" width="200" alt="设置页"></a></td>
 </tr>
+<tr>
+<th colspan="2">微信端运行截图</th>
+</tr>
+<tr>
+<td colspan="2" align="center"><a href="docs/screenshots/wechat-runtime.png"><img src="docs/screenshots/wechat-runtime.png" width="240" alt="微信端运行截图"></a></td>
+</tr>
 </table>
 
 > 截图来自本地真实运行环境，仅用于展示界面。

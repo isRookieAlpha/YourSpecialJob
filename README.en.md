@@ -29,6 +29,12 @@ The design principle is not "let the model chat", but **put LLM uncertainty insi
 <td width="50%"><a href="docs/screenshots/offers-map-schedule.png"><img src="docs/screenshots/offers-map-schedule.png" width="100%" alt="ToDo map and schedule"></a></td>
 <td width="50%" align="center"><a href="docs/screenshots/settings.png"><img src="docs/screenshots/settings.png" width="200" alt="Settings"></a></td>
 </tr>
+<tr>
+<th colspan="2">WeChat runtime screenshot</th>
+</tr>
+<tr>
+<td colspan="2" align="center"><a href="docs/screenshots/wechat-runtime.png"><img src="docs/screenshots/wechat-runtime.png" width="240" alt="WeChat runtime screenshot"></a></td>
+</tr>
 </table>
 
 > Screenshots come from a real local run and are for UI demonstration only.

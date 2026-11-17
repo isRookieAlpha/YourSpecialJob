@@ -16,11 +16,11 @@ The design principle is not "let the model chat", but **put LLM uncertainty insi
 |---|---|
 | ![OfferPanel](docs/screenshots/offer-panel.png) | ![Workbench](docs/screenshots/offers-workbench.png) |
 
-| ToDo locations on a static map | Settings |
+| ToDo map and schedule | Settings |
 |---|---|
-| ![Map](docs/screenshots/offers-map.png) | ![Settings](docs/screenshots/settings.png) |
+| ![ToDo map and schedule](docs/screenshots/offers-map-schedule.png) | ![Settings](docs/screenshots/settings.png) |
 
-> Screenshots come from a real local run. Names, phone numbers, emails, addresses, and recruiter nicknames were redacted before capture.
+> Screenshots come from a real local run and are for UI demonstration only.
 
 ## Features
 
@@ -231,16 +231,6 @@ cd frontend && npm run build
 - API tests use `httpx.AsyncClient + ASGITransport` without lifespan, so background workers are not started.
 - External services (LLM / WeChat / AMap) are replaced with fakes.
 - Real integrations are validated manually with `scripts/probe_*.py` (SSE, HITL, WeChat read/send, AMap, ingestion idempotency, screenshots).
-
-## Limitations
-
-- **Single-user local app**: no authentication, multi-tenancy, or permission isolation; run it locally.
-- **WeChat dependency**: UI automation only supports Windows + PC WeChat 3.9.12 32-bit; not suitable for multi-instance production.
-- **Evaluation**: extraction/recommendation/RAG are mainly validated manually and with probes; there is no systematic evaluation set or online metric yet.
-- **Frontend security**: Markdown is rendered with `marked` + `v-html` without HTML sanitization; add DOMPurify or disable raw HTML before public deployment.
-- **Embedding changes**: changing the embedding model requires reindexing resumes; changing `embedding_dims` requires a restart (the store vector column is fixed).
-- **Long-term memory**: extraction is fire-and-forget and can occasionally be lost; similar memories are merged by a similarity threshold.
-- **Privacy**: WeChat history, resumes, and exported PDFs are personal data and are gitignored by default. Do not commit real data.
 
 ## Roadmap
 

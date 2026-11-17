@@ -16,11 +16,11 @@ YourSpecialJob 面向在微信群里找兼职的学生：自动读取群消息�
 |---|---|
 | ![OfferPanel](docs/screenshots/offer-panel.png) | ![心动的offer 工作台](docs/screenshots/offers-workbench.png) |
 
-| ToDo 地点静态地图 | 设置页 |
+| ToDo地图与日程表 | 设置页 |
 |---|---|
-| ![ToDo 地图](docs/screenshots/offers-map.png) | ![设置页](docs/screenshots/settings.png) |
+| ![ToDo地图与日程表](docs/screenshots/offers-map-schedule.png) | ![设置页](docs/screenshots/settings.png) |
 
-> 截图来自本地真实运行环境；姓名、电话、邮箱、住址、中介昵称等敏感信息已在截图前脱敏。
+> 截图来自本地真实运行环境，仅用于展示界面。
 
 ## 功能
 
@@ -297,16 +297,6 @@ cd frontend && npm run build
 - API 测试用 `httpx.AsyncClient + ASGITransport`，不跑 lifespan，避免启动后台 worker；
 - 外部依赖（LLM/微信/高德）在测试中用 Fake 隔离；
 - 真实链路由 `scripts/probe_*.py` 人工验证（SSE、HITL、微信读取/发送、高德、摄入幂等、截图等）。
-
-## 已知限制
-
-- **单机单用户**：没有登录、多租户、权限隔离；API 只建议本机运行。
-- **微信依赖强**：UI 自动化只支持 Windows + PC 微信 3.9.12 32 位；不适合多实例/生产 SaaS。
-- **评测不足**：抽取/推荐/RAG 目前主要靠人工验收与探针，没有系统评测集与线上指标。
-- **前端安全**：Markdown 渲染使用 `marked` + `v-html`，尚未接入 HTML 清洗；公开部署前应加 DOMPurify 或禁用 HTML。
-- **embedding 变更**：换 embedding 模型必须重建简历索引；`embedding_dims` 变更需要重启（store 向量列固定）。
-- **长期记忆**：提取是 fire-and-forget，极端情况下可能丢一次；相似记忆按阈值合并。
-- **数据合规**：微信聊天记录、简历、导出 PDF 属于个人数据，默认全部 gitignore；不要提交真实数据。
 
 ## Roadmap
 

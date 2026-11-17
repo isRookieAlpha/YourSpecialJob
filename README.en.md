@@ -12,13 +12,16 @@ The design principle is not "let the model chat", but **put LLM uncertainty insi
 
 ## Screenshots
 
-| OfferPanel after recommendations | Favorites / ToDo workbench |
-|---|---|
-| ![OfferPanel](docs/screenshots/offer-panel.png) | ![Workbench](docs/screenshots/offers-workbench.png) |
-
-| ToDo map and schedule | Settings |
-|---|---|
-| <a href="docs/screenshots/offers-map-schedule.png"><img src="docs/screenshots/offers-map-schedule.png" width="340" alt="ToDo map and schedule"></a> | <a href="docs/screenshots/settings.png"><img src="docs/screenshots/settings.png" width="200" alt="Settings"></a> |
+<table>
+<tr>
+<td width="50%"><a href="docs/screenshots/offer-panel.png"><img src="docs/screenshots/offer-panel.png" width="100%" alt="OfferPanel after recommendations"></a></td>
+<td width="50%"><a href="docs/screenshots/offers-workbench.png"><img src="docs/screenshots/offers-workbench.png" width="100%" alt="Favorites / ToDo workbench"></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="docs/screenshots/offers-map-schedule.png"><img src="docs/screenshots/offers-map-schedule.png" width="100%" alt="ToDo map and schedule"></a></td>
+<td width="50%"><a href="docs/screenshots/settings.png"><img src="docs/screenshots/settings.png" width="200" alt="Settings"></a></td>
+</tr>
+</table>
 
 > Screenshots come from a real local run and are for UI demonstration only.
 
